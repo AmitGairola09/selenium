@@ -59,6 +59,7 @@ public class GoogleExampleIT extends DriverBase {
         GoogleHomePage googleHomePage = new GoogleHomePage();
 
         // Check the title of the page
+        // Check the title of the page
         System.out.println("Page title is: " + driver.getTitle());
 
         googleHomePage.enterSearchTerm("Milk")
